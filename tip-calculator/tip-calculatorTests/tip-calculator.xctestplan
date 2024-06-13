@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "70DD2C49-5B73-4466-8628-69B6D6A6DC48",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:tip-calculator.xcodeproj",
+      "identifier" : "7861BF052C1330FD006EA1A7",
+      "name" : "tip-calculator"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:tip-calculator.xcodeproj",
+        "identifier" : "7861BF1B2C133104006EA1A7",
+        "name" : "tip-calculatorTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:tip-calculator.xcodeproj",
+        "identifier" : "7861BF252C133104006EA1A7",
+        "name" : "tip-calculatorUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

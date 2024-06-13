@@ -94,6 +94,7 @@
 		78E137F52C19E64F00399630 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		78E137F82C1AA17600399630 /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
 		78E137FB2C1AA1C500399630 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		78E9FC1C2C1B18CF00A7CB6E /* tip-calculator.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "tip-calculator.xctestplan"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +172,7 @@
 		7861BF1F2C133104006EA1A7 /* tip-calculatorTests */ = {
 			isa = PBXGroup;
 			children = (
+				78E9FC1C2C1B18CF00A7CB6E /* tip-calculator.xctestplan */,
 				7861BF202C133104006EA1A7 /* tip_calculatorTests.swift */,
 			);
 			path = "tip-calculatorTests";

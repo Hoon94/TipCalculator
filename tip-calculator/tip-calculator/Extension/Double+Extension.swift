@@ -14,6 +14,7 @@ extension Double {
         }
         let formatter = NumberFormatter()
         formatter.numberStyle = .currency
+        formatter.currencyCode = "USD"
         formatter.minimumFractionDigits = isWholeNumber ? 0 : 2
         return formatter.string(for: self) ?? ""
     }
