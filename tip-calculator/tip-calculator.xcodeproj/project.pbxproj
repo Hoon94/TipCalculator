@@ -36,6 +36,9 @@
 		7861BF822C167162006EA1A7 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7861BF812C167162006EA1A7 /* CalculatorVM.swift */; };
 		7861BF842C16745A006EA1A7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7861BF832C16745A006EA1A7 /* Result.swift */; };
 		78D07D4E2C1DA08400B200F2 /* tip_calculatorSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D07D4D2C1DA08400B200F2 /* tip_calculatorSnapshotTests.swift */; };
+		78D07D502C1DC20300B200F2 /* ScreenIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D07D4F2C1DC20300B200F2 /* ScreenIdentifier.swift */; };
+		78D07D512C1DC20300B200F2 /* ScreenIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D07D4F2C1DC20300B200F2 /* ScreenIdentifier.swift */; };
+		78D07D532C1DC50300B200F2 /* CalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D07D522C1DC50300B200F2 /* CalculatorScreen.swift */; };
 		78E137F02C188F2C00399630 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E137EF2C188F2C00399630 /* String+Extension.swift */; };
 		78E137F22C189D7E00399630 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E137F12C189D7E00399630 /* UIResponder+Extension.swift */; };
 		78E137F42C19897C00399630 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E137F32C19897C00399630 /* Int+Extension.swift */; };
@@ -90,6 +93,8 @@
 		7861BF812C167162006EA1A7 /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
 		7861BF832C16745A006EA1A7 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		78D07D4D2C1DA08400B200F2 /* tip_calculatorSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorSnapshotTests.swift; sourceTree = "<group>"; };
+		78D07D4F2C1DC20300B200F2 /* ScreenIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenIdentifier.swift; sourceTree = "<group>"; };
+		78D07D522C1DC50300B200F2 /* CalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreen.swift; sourceTree = "<group>"; };
 		78E137EF2C188F2C00399630 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		78E137F12C189D7E00399630 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
 		78E137F32C19897C00399630 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
@@ -186,6 +191,7 @@
 			children = (
 				7861BF2A2C133104006EA1A7 /* tip_calculatorUITests.swift */,
 				7861BF2C2C133104006EA1A7 /* tip_calculatorUITestsLaunchTests.swift */,
+				78D07D522C1DC50300B200F2 /* CalculatorScreen.swift */,
 			);
 			path = "tip-calculatorUITests";
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 			children = (
 				7861BF7C2C1600EB006EA1A7 /* Tip.swift */,
 				7861BF832C16745A006EA1A7 /* Result.swift */,
+				78D07D4F2C1DC20300B200F2 /* ScreenIdentifier.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -425,6 +432,7 @@
 				7861BF822C167162006EA1A7 /* CalculatorVM.swift in Sources */,
 				78E137F22C189D7E00399630 /* UIResponder+Extension.swift in Sources */,
 				78E137F42C19897C00399630 /* Int+Extension.swift in Sources */,
+				78D07D502C1DC20300B200F2 /* ScreenIdentifier.swift in Sources */,
 				7861BF7A2C15A2CA006EA1A7 /* AmountView.swift in Sources */,
 				78E137F02C188F2C00399630 /* String+Extension.swift in Sources */,
 				7861BF0E2C1330FD006EA1A7 /* CalculatorVC.swift in Sources */,
@@ -461,7 +469,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7861BF2D2C133104006EA1A7 /* tip_calculatorUITestsLaunchTests.swift in Sources */,
+				78D07D512C1DC20300B200F2 /* ScreenIdentifier.swift in Sources */,
 				7861BF2B2C133104006EA1A7 /* tip_calculatorUITests.swift in Sources */,
+				78D07D532C1DC50300B200F2 /* CalculatorScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
